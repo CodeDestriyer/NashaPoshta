@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Генератор іконок — Borispol Vip Travel</title>
+    <title>Генератор іконок — Nasha Poshta PL</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
     <style>
         * { box-sizing: border-box; margin: 0; }
@@ -25,7 +25,7 @@
 </head>
 <body>
 
-<h1>Генератор іконок Borispol Vip Travel</h1>
+<h1>Генератор іконок Nasha Poshta PL</h1>
 <p class="subtitle">Натисни кнопку — скачаєш всі файли одразу</p>
 
 <div class="grid">
@@ -86,17 +86,17 @@ function drawIcon(canvasId, size) {
     ctx.textBaseline = 'middle';
     ctx.fillText('🚐', size / 2, size * 0.35);
 
-    // BORISPOL
+    // NASHA
     ctx.fillStyle = 'white';
     ctx.font = '800 ' + (size * 0.15) + 'px Montserrat, Arial, sans-serif';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillText('BORISPOL', size / 2, size * 0.62);
+    ctx.fillText('NASHA', size / 2, size * 0.62);
 
-    // VIP TRAVEL
+    // POSHTA PL
     ctx.fillStyle = '#d90d0d';
     ctx.font = '800 ' + (size * 0.12) + 'px Montserrat, Arial, sans-serif';
-    ctx.fillText('VIP TRAVEL', size / 2, size * 0.80);
+    ctx.fillText('POSHTA PL', size / 2, size * 0.80);
 }
 
 // ── OG Image (1200×630) ──
@@ -127,15 +127,15 @@ function drawOG() {
     ctx.textBaseline = 'middle';
     ctx.fillText('🚐', 600, 180);
 
-    // BORISPOL
+    // NASHA
     ctx.fillStyle = 'white';
     ctx.font = '900 72px Montserrat, Arial, sans-serif';
-    ctx.fillText('BORISPOL', 600, 320);
+    ctx.fillText('NASHA', 600, 320);
 
-    // VIP TRAVEL
+    // POSHTA PL
     ctx.fillStyle = '#d90d0d';
     ctx.font = '800 56px Montserrat, Arial, sans-serif';
-    ctx.fillText('VIP TRAVEL', 600, 400);
+    ctx.fillText('POSHTA PL', 600, 400);
 
     // Підпис
     ctx.fillStyle = 'rgba(255,255,255,0.5)';
@@ -241,7 +241,7 @@ function downloadAll() {
     var zip = createZip(files);
     var blob = new Blob([zip], { type: 'application/zip' });
     var a = document.createElement('a');
-    a.download = 'borispol-vip-travel-icons.zip';
+    a.download = 'nasha-poshta-pl-icons.zip';
     a.href = URL.createObjectURL(blob);
     a.click();
     URL.revokeObjectURL(a.href);

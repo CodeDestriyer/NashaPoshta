@@ -1,7 +1,7 @@
 {
-  "name": "Borispol Vip Travel CRM",
-  "short_name": "BVT CRM",
-  "description": "CRM Пасажири — Borispol Vip Travel",
+  "name": "Nasha Poshta PL CRM",
+  "short_name": "NP PL CRM",
+  "description": "CRM Пасажири — Nasha Poshta PL",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

@@ -1,5 +1,5 @@
 // ================================================================
-// Borispol_Vip_Travel_Passengers.gs — CRM Пасажири (менеджери)
+// Nasha_Poshta_PL_Passengers.gs — CRM Пасажири (менеджери)
 // Живе в таблиці: Passengers_crm_Oksi
 // Deploy: Web App → доступ "Будь-хто"
 // ================================================================
@@ -2255,7 +2255,7 @@ function doGet(e) {
   try {
     switch (action) {
       case 'ping':
-        result = { ok: true, message: 'Borispol Vip Travel CRM v3 API', version: '3.0', timestamp: new Date().toISOString() };
+        result = { ok: true, message: 'Nasha Poshta PL CRM v3 API', version: '3.0', timestamp: new Date().toISOString() };
         break;
       case 'getAll':
         result = apiGetAll({ sheet: e.parameter.sheet || 'all', filter: {} });
